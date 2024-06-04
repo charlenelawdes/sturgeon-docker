@@ -13,4 +13,4 @@ RUN python3.9 -m venv venv
 RUN ./venv/bin/pip install --upgrade pip
 RUN ./venv/bin/pip install .
 
-ENTRYPOINT ["./venv/bin/sturgeon"]
+CMD ["./venv/bin/sturgeon"]
